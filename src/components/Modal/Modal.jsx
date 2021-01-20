@@ -1,6 +1,7 @@
-import { Component } from 'react';
-import './Modal.css';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+
+import './Modal.css';
 
 export default class Modal extends Component {
   static propTypes = {
